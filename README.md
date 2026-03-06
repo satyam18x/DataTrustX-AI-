@@ -7,19 +7,6 @@ The platform allows buyers to request specific types of datasets, while sellers 
 
 By using synthetic data instead of real sensitive data, DataTrustX enables safe data sharing while protecting privacy and maintaining data usability.
 
-🎯 Problem Statement
-
-Access to high-quality datasets is one of the biggest challenges in AI and data-driven research. Organizations often cannot share real datasets due to:
-
-Privacy concerns
-
-Data protection regulations
-
-Confidential business information
-
-Risk of exposing sensitive user data
-
-This creates a data accessibility gap for developers, researchers, and companies building AI models.
 
 💡 Our Solution
 
@@ -68,15 +55,7 @@ Anomaly detection
 
 Only datasets that pass validation are approved.
 
-🔒 Privacy-Preserving Data Exchange
 
-By using synthetic data, the platform ensures:
-
-No real user information is exposed
-
-Compliance with data privacy regulations
-
-Safe collaboration between organizations
 
 🏗 System Architecture
 
@@ -107,7 +86,7 @@ React.js
 
 JavaScript
 
-HTML / CSS
+Tailwind css
 
 Backend
 
@@ -124,5 +103,6 @@ Data validation algorithms
 Database
 
 SQLite / Local database
+
 
 
