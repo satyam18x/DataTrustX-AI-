@@ -173,31 +173,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Stats Grid */}
-            <section className="py-24 border-y border-[#E5E3D9] bg-[#F8F7F4]">
-                <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
-                        {[
-                            { label: "Verified Datasets", value: "24.5k+" },
-                            { label: "Institutional Peers", value: "8.2k+" },
-                            { label: "Avg. Reliability Score", value: "99.8%" },
-                            { label: "Transactions Secured", value: "$420M+" }
-                        ].map((stat, idx) => (
-                            <motion.div
-                                key={idx}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: idx * 0.1 }}
-                            >
-                                <p className="text-4xl lg:text-5xl font-bold text-[#1E3036] tracking-tightest mb-2">{stat.value}</p>
-                                <p className="text-[13px] font-bold text-[#5F6A6E] uppercase tracking-widest">{stat.label}</p>
-                            </motion.div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
             {/* Core Capabilities */}
             <section className="py-32 relative">
                 <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
